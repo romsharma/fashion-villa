@@ -1,0 +1,211 @@
+body{
+    background-color:#030e03;
+}
+header{
+    height: 100px;
+    /*background-color:brown;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px; 
+    position: ;   
+}
+
+.logo{
+    color:#cfd3cf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    cursor:none;
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    border-radius: 50px;
+    /*box-shadow:2px 2px 5px whitesmoke,-2px -2px 5px whitesmoke;*/
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+}
+
+.logo > div{
+    margin-top: 14px;
+    margin-left: 2px;
+}
+
+  .logo:hover{
+     color: #58fdfd ;
+    box-shadow: 5px 5px 40px 5px #58fdfd,
+    -5px -5px 40px 5px #58fdfd;
+
+ }
+
+nav{
+    /*background-color:navy;*/
+    width: 700px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li{
+    padding: 10px 10px;
+    display: inline;
+    
+}
+
+ul li a{
+    font-size: 18px;
+   text-decoration: none; 
+   color: #cfd3cf;
+   transition: 0.8s;
+   /*padding: 5px 10px;*/
+   border-radius: 10px;
+   margin-left: 20px;
+}
+
+li a:hover{
+    color:   #58fdfd;
+    /*background-color:#101d10;*/
+    text-shadow: 5px 5px 40px 3px  #58fdfd ,
+                -5px -5px 40px 3px   #58fdfd ;
+}
+
+.icon{
+    height: 100px;
+    width: 150px;
+    /*background-color: burlywood;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ 
+.one{
+    height: 600px;
+    width: 800px;
+    background-color: purple;
+    position: relative;
+    box-shadow: 5px 5px 30px 0px black, -5px -5px 30px 0px black;
+    margin: 50px auto;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.one img{
+    position: absolute;
+    
+    width: 800px;
+}
+
+.two{
+    width: 1200px;
+    height: 500px;
+    /*background-color: purple;*/
+    /*box-shadow: 5px 5px 10px black, -5px -5px 10px white;*/
+    margin: auto;
+    display: flex;  
+    justify-content: space-between; 
+
+}
+
+.two div{
+    height: 500px; width: 500px;
+    background-color: purple;
+    box-shadow: 5px 5px 30px 0px black, -5px -5px 30px 0px black;
+    position: relative;
+    overflow: hidden;
+}
+
+.two div img{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+
+.tree{
+    height: 600px;
+    width: 800px;
+    background-image: url(mos.jpg);
+    background-position: top;
+    background-size: cover;
+    box-shadow: 5px 5px 30px 0px black, -5px -5px 30px 0px black;
+
+    margin: 50px auto;
+   /* position: relative;
+    overflow: hidden;*/
+}
+/*.tree img{
+    position: absolute;
+    width: 800px;
+}*/
+
+.for{
+    width: 1200px;
+    height: 500px;
+    /*background-color: purple;*/
+    /*box-shadow: 5px 5px 10px black, -5px -5px 10px white;*/
+    margin: auto;
+    display: flex;  
+    justify-content: space-between; 
+    }
+
+.for div{
+    height: 500px; width: 500px;
+    background-color: purple;
+    box-shadow: 5px 5px 30px 0px black, -5px -5px 30px 0px black;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.for div img{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+
+}
+
+.fiv{
+    height: 600px;
+    width: 800px;
+    background-color: purple;
+    box-shadow: 5px 5px 30px 0px black, -5px -5px 30px 0px black;
+    margin: 50px auto;
+}   
+
+.six{
+    width: 1200px;
+    height: 500px;
+    /*background-color: purple;*/
+    /*box-shadow: 5px 5px 10px black, -5px -5px 10px white;*/
+    margin: auto;
+    display: flex;  
+    justify-content: space-between; 
+}
+
+.six div{
+    height: 500px; width: 500px;
+    background-color: purple;
+    box-shadow: 5px 5px 30px 0px black, -5px -5px 30px 0px black;
+    position: relative;
+    overflow: hidden;
+}
+.six div img{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+
+}
+
+
+
+
+
+
+
+footer{
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
